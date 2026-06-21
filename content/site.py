@@ -1,6 +1,6 @@
 # 사이트 공통 설정
 # 배포 도메인 확정 후 BASE_URL 을 실제 도메인으로 변경하세요.
-BASE_URL = "https://www.barogo-gwacheon.example.com"
+BASE_URL = "https://gwacheon-massage1.pages.dev"
 
 BRAND = "바로GO"
 PHONE = "0508-202-4719"
@@ -9,6 +9,10 @@ PHONE_DISPLAY = "0508-202-4719"
 # 텔레그램 문의 채널 (푸터 오렌지 버튼)
 TELEGRAM_BUILD = "https://t.me/googleseolab"   # 웹사이트 제작문의
 TELEGRAM_PARTNER = "https://t.me/googleseolab"  # 제휴문의
+
+# IndexNow 키 — 빌드 시 루트에 "{KEY}.txt" 파일로 생성된다.
+# 빙(Bing)과 네이버(Naver)는 IndexNow 참여 검색엔진이라 한 번 통보로 함께 반영된다.
+INDEXNOW_KEY = "7e3b9c1d4a8f42e6b05c9d2f1a6e8b3c"
 
 # 과천 메인 경로 — 광역(경기) 구조 안에서 과천시를 둔다.
 GWACHEON_HOME = "/"

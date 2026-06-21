@@ -1,4 +1,14 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.barogo-gwacheon.example.com/sitemap.xml
+# 주요 검색엔진 크롤러 명시 허용
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yeti
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+Sitemap: https://gwacheon-massage1.pages.dev/sitemap.xml
