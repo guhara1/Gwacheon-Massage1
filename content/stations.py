@@ -20,20 +20,20 @@ _HUB_BODY = """
 
 <section>
 <h2>4호선 과천 구간 다섯 개 역</h2>
-<p>과천 안에서 4호선은 북쪽 <a href="/gyeonggi/gwacheon/station/government-complex-gwacheon-station/">정부과천청사역</a>에서 시작해 <a href="/gyeonggi/gwacheon/station/gwacheon-station/">과천역</a>, <a href="/gyeonggi/gwacheon/station/seoul-grand-park-station/">대공원역</a>, <a href="/gyeonggi/gwacheon/station/seoul-racecourse-park-station/">경마공원역</a>을 지나 남쪽 <a href="/gyeonggi/gwacheon/station/seonbawi-station/">선바위역</a>으로 이어집니다. 정부과천청사역과 과천역은 행정·상권이 모인 도심 구간이라 자택과 오피스텔, 사무실 인근 문의가 고르게 들어오고, 대공원역과 경마공원역은 서울대공원·경마공원이라는 큰 시설을 끼고 있어 나들이나 외출 일정과 맞물린 문의가 많습니다. 선바위역은 과천동·주암동 남부 주거 생활권의 관문 역할을 합니다. 역마다 인접한 대표동이 다르므로, 본인이 머무는 위치와 가까운 역 페이지를 골라 보시면 됩니다.</p>
+<p>과천 안에서 4호선은 북쪽 <a href="/station/government-complex-gwacheon-station/">정부과천청사역</a>에서 시작해 <a href="/station/gwacheon-station/">과천역</a>, <a href="/station/seoul-grand-park-station/">대공원역</a>, <a href="/station/seoul-racecourse-park-station/">경마공원역</a>을 지나 남쪽 <a href="/station/seonbawi-station/">선바위역</a>으로 이어집니다. 정부과천청사역과 과천역은 행정·상권이 모인 도심 구간이라 자택과 오피스텔, 사무실 인근 문의가 고르게 들어오고, 대공원역과 경마공원역은 서울대공원·경마공원이라는 큰 시설을 끼고 있어 나들이나 외출 일정과 맞물린 문의가 많습니다. 선바위역은 과천동·주암동 남부 주거 생활권의 관문 역할을 합니다. 역마다 인접한 대표동이 다르므로, 본인이 머무는 위치와 가까운 역 페이지를 골라 보시면 됩니다.</p>
 <ul class="card-grid">
-<li><a href="/gyeonggi/gwacheon/station/government-complex-gwacheon-station/">정부과천청사역</a></li>
-<li><a href="/gyeonggi/gwacheon/station/gwacheon-station/">과천역</a></li>
-<li><a href="/gyeonggi/gwacheon/station/seoul-grand-park-station/">대공원역</a></li>
-<li><a href="/gyeonggi/gwacheon/station/seoul-racecourse-park-station/">경마공원역</a></li>
-<li><a href="/gyeonggi/gwacheon/station/seonbawi-station/">선바위역</a></li>
-<li><a href="/gyeonggi/gwacheon/station/indeogwon-nearby-area/">인덕원역 인접 생활권</a></li>
+<li><a href="/station/government-complex-gwacheon-station/">정부과천청사역</a></li>
+<li><a href="/station/gwacheon-station/">과천역</a></li>
+<li><a href="/station/seoul-grand-park-station/">대공원역</a></li>
+<li><a href="/station/seoul-racecourse-park-station/">경마공원역</a></li>
+<li><a href="/station/seonbawi-station/">선바위역</a></li>
+<li><a href="/station/indeogwon-nearby-area/">인덕원역 인접 생활권</a></li>
 </ul>
 </section>
 
 <section>
 <h2>인덕원역은 왜 인접 생활권으로만 안내하나요</h2>
-<p>인덕원역은 행정구역상 안양시 동안구에 속하고 생활권 성격도 안양시 쪽이 강합니다. 그래서 과천 사이트에서는 인덕원역을 단독 역 색인으로 두지 않고, 과천 갈현동과 과천지식정보타운에 인접한 생활권 기준으로만 안내합니다. 자세한 내용은 <a href="/gyeonggi/gwacheon/station/indeogwon-nearby-area/">인덕원역 인접 생활권</a> 페이지에서 확인하실 수 있습니다. 갈현동·지식정보타운 일대는 인덕원 방면 생활권과 맞닿아 있어, 경계에 가까운 주소는 과천 방문 가능 여부를 전화로 한 번 확인하시는 편이 정확합니다.</p>
+<p>인덕원역은 행정구역상 안양시 동안구에 속하고 생활권 성격도 안양시 쪽이 강합니다. 그래서 과천 사이트에서는 인덕원역을 단독 역 색인으로 두지 않고, 과천 갈현동과 과천지식정보타운에 인접한 생활권 기준으로만 안내합니다. 자세한 내용은 <a href="/station/indeogwon-nearby-area/">인덕원역 인접 생활권</a> 페이지에서 확인하실 수 있습니다. 갈현동·지식정보타운 일대는 인덕원 방면 생활권과 맞닿아 있어, 경계에 가까운 주소는 과천 방문 가능 여부를 전화로 한 번 확인하시는 편이 정확합니다.</p>
 </section>
 
 <section>
@@ -43,7 +43,7 @@ _HUB_BODY = """
 
 <section>
 <h2>역 페이지와 지역·생활권 페이지의 관계</h2>
-<p>같은 위치라도 보시는 분의 기준에 따라 역 페이지가 편할 수도, 동 페이지가 편할 수도 있습니다. 역 이름으로 위치를 떠올리시면 역 페이지를, 사는 동네 이름이 익숙하시면 <a href="/gyeonggi/gwacheon/jungang-dong/">중앙동</a>·<a href="/gyeonggi/gwacheon/byeoryang-dong/">별양동</a> 같은 지역별 안내를, 더 넓은 단위로 보고 싶으시면 <a href="/gyeonggi/gwacheon/area/">생활권 안내</a>를 참고하시면 됩니다. 어느 쪽을 보셔도 예약 절차와 비용 기준은 같습니다. 역 페이지는 역세권 주변 이동 기준을 담당하고, 동 페이지는 지역 생활 기준을 담당하도록 역할을 나누어, 같은 문장이 반복되지 않게 작성했습니다.</p>
+<p>같은 위치라도 보시는 분의 기준에 따라 역 페이지가 편할 수도, 동 페이지가 편할 수도 있습니다. 역 이름으로 위치를 떠올리시면 역 페이지를, 사는 동네 이름이 익숙하시면 <a href="/jungang-dong/">중앙동</a>·<a href="/byeoryang-dong/">별양동</a> 같은 지역별 안내를, 더 넓은 단위로 보고 싶으시면 <a href="/area/">생활권 안내</a>를 참고하시면 됩니다. 어느 쪽을 보셔도 예약 절차와 비용 기준은 같습니다. 역 페이지는 역세권 주변 이동 기준을 담당하고, 동 페이지는 지역 생활 기준을 담당하도록 역할을 나누어, 같은 문장이 반복되지 않게 작성했습니다.</p>
 </section>
 
 <section>
@@ -72,17 +72,17 @@ _HUB_BODY = """
 def _station(slug, name, title, desc, body, name_label=None):
     label = name_label or name
     return {
-        "path": f"gyeonggi/gwacheon/station/{slug}/",
+        "path": f"station/{slug}/",
         "title": title,
         "desc": desc,
         "h1": f"{label} 인근 방문형 관리 안내",
         "body": body + PRICING + _CTA,
-        "breadcrumb": [("역세권 안내", "/gyeonggi/gwacheon/station/"), (label, None)],
+        "breadcrumb": [("역세권 안내", "/station/"), (label, None)],
     }
 
 
 HUB = {
-    "path": "gyeonggi/gwacheon/station/",
+    "path": "station/",
     "title": "과천 역세권 출장마사지｜정부과천청사·과천역·선바위역 안내",
     "desc": "과천 역세권 출장마사지 안내. 정부과천청사역, 과천역, 선바위역 생활권을 확인하세요.",
     "h1": "과천시 역세권별 안내",
@@ -105,7 +105,7 @@ GOVT = _station(
 
 <section>
 <h2>인접한 대표동과 생활권</h2>
-<p>정부과천청사역에서 가장 가까운 생활권은 <a href="/gyeonggi/gwacheon/jungang-dong/">중앙동 출장마사지</a> 안내가 다루는 행정 중심권과, <a href="/gyeonggi/gwacheon/byeoryang-dong/">별양동 출장마사지</a> 안내가 다루는 주거·상권입니다. 두 동은 길 하나를 사이에 두고 맞닿아 있어, 같은 단지여도 동·호수에 따라 가까운 역과 생활권이 조금씩 달라집니다. 넓은 단위로 한눈에 보고 싶으시다면 <a href="/gyeonggi/gwacheon/area/government-complex-jungang/">정부과천청사·중앙동 생활권</a> 페이지에서 행정 중심 생활권의 이동 기준을 함께 확인하실 수 있습니다. 예약 시에는 단지명과 동·호수를 알려주시는 편이 가장 정확합니다.</p>
+<p>정부과천청사역에서 가장 가까운 생활권은 <a href="/jungang-dong/">중앙동 출장마사지</a> 안내가 다루는 행정 중심권과, <a href="/byeoryang-dong/">별양동 출장마사지</a> 안내가 다루는 주거·상권입니다. 두 동은 길 하나를 사이에 두고 맞닿아 있어, 같은 단지여도 동·호수에 따라 가까운 역과 생활권이 조금씩 달라집니다. 넓은 단위로 한눈에 보고 싶으시다면 <a href="/area/government-complex-jungang/">정부과천청사·중앙동 생활권</a> 페이지에서 행정 중심 생활권의 이동 기준을 함께 확인하실 수 있습니다. 예약 시에는 단지명과 동·호수를 알려주시는 편이 가장 정확합니다.</p>
 </section>
 
 <section>
@@ -155,12 +155,12 @@ GWACHEON = _station(
 
 <section>
 <h2>역 주변 이동 기준</h2>
-<p>이 페이지는 과천역을 기준으로 한 이동 동선을 다룹니다. 같은 별양동·부림동이라도 과천역에서 가까운 단지인지, 중심상권 안쪽인지, 한 블록 더 들어간 주거 안쪽인지에 따라 도착 경로가 달라집니다. 상권 일대는 저녁 시간 차량 흐름이 더딘 구간이 있어, 그 안쪽 단지는 도착 시간을 조금 여유 있게 안내드립니다. 생활 기준의 자세한 안내는 <a href="/gyeonggi/gwacheon/byeoryang-dong/">별양동 출장마사지</a> 페이지와 <a href="/gyeonggi/gwacheon/burim-dong/">부림동 출장마사지</a> 페이지에서 따로 다루므로, 동네 생활 정보가 궁금하시면 그쪽을 참고해 주세요. 이 역 페이지는 역세권을 중심에 둔 이동 동선 안내에 집중합니다.</p>
+<p>이 페이지는 과천역을 기준으로 한 이동 동선을 다룹니다. 같은 별양동·부림동이라도 과천역에서 가까운 단지인지, 중심상권 안쪽인지, 한 블록 더 들어간 주거 안쪽인지에 따라 도착 경로가 달라집니다. 상권 일대는 저녁 시간 차량 흐름이 더딘 구간이 있어, 그 안쪽 단지는 도착 시간을 조금 여유 있게 안내드립니다. 생활 기준의 자세한 안내는 <a href="/byeoryang-dong/">별양동 출장마사지</a> 페이지와 <a href="/burim-dong/">부림동 출장마사지</a> 페이지에서 따로 다루므로, 동네 생활 정보가 궁금하시면 그쪽을 참고해 주세요. 이 역 페이지는 역세권을 중심에 둔 이동 동선 안내에 집중합니다.</p>
 </section>
 
 <section>
 <h2>인접 생활권과 함께 보기</h2>
-<p>과천역과 별양동을 묶어 더 넓은 단위로 보고 싶으시다면 <a href="/gyeonggi/gwacheon/area/gwacheon-station-byeoryang/">과천역·별양동 생활권</a> 페이지가 중심상권과 주거지를 아우르는 이동 기준을 정리해 두었습니다. 과천역은 중심상권의 관문이라 별양동뿐 아니라 부림동 방면으로도 동선이 이어지므로, 본인 위치가 상권 쪽인지 주거 안쪽인지 가볍게 짚어 주시면 도착 안내가 정확해집니다. 상권 바깥쪽 주거 단지는 정부과천청사역과의 중간에 걸치는 경우도 있어, 평소 가깝게 느끼시는 역 이름을 함께 말씀해 주시면 이동 경로를 더 매끄럽게 잡아 드립니다.</p>
+<p>과천역과 별양동을 묶어 더 넓은 단위로 보고 싶으시다면 <a href="/area/gwacheon-station-byeoryang/">과천역·별양동 생활권</a> 페이지가 중심상권과 주거지를 아우르는 이동 기준을 정리해 두었습니다. 과천역은 중심상권의 관문이라 별양동뿐 아니라 부림동 방면으로도 동선이 이어지므로, 본인 위치가 상권 쪽인지 주거 안쪽인지 가볍게 짚어 주시면 도착 안내가 정확해집니다. 상권 바깥쪽 주거 단지는 정부과천청사역과의 중간에 걸치는 경우도 있어, 평소 가깝게 느끼시는 역 이름을 함께 말씀해 주시면 이동 경로를 더 매끄럽게 잡아 드립니다.</p>
 </section>
 
 <section>
@@ -209,7 +209,7 @@ GRANDPARK = _station(
 
 <section>
 <h2>인접한 대표동과 생활권</h2>
-<p>대공원역에서 가장 가까운 생활권은 <a href="/gyeonggi/gwacheon/munwon-dong/">문원동 출장마사지</a> 안내가 다루는 외곽 주거권입니다. 문원동은 막계동·서울대공원 인접권과 닿아 있어, 단지나 주택 위치에 따라 이동 기준이 조금씩 달라집니다. 공원과 주거지를 함께 묶어 보고 싶으시다면 <a href="/gyeonggi/gwacheon/area/seoul-grand-park-munwon/">서울대공원·문원동 생활권</a> 페이지에서 외곽 생활권의 이동 기준을 확인하실 수 있습니다. 북쪽으로는 <a href="/gyeonggi/gwacheon/gwacheon-dong/">과천동 출장마사지</a> 안내가 다루는 생활권과도 연결되니, 위치가 그 사이라면 두 페이지를 함께 참고하셔도 좋습니다. 같은 문원동이라도 공원 진입로에 가까운 쪽과 주거 안쪽은 도착 동선이 다르므로, 단지명이나 큰 기준점을 함께 알려주시면 위치 확인이 한결 빨라집니다.</p>
+<p>대공원역에서 가장 가까운 생활권은 <a href="/munwon-dong/">문원동 출장마사지</a> 안내가 다루는 외곽 주거권입니다. 문원동은 막계동·서울대공원 인접권과 닿아 있어, 단지나 주택 위치에 따라 이동 기준이 조금씩 달라집니다. 공원과 주거지를 함께 묶어 보고 싶으시다면 <a href="/area/seoul-grand-park-munwon/">서울대공원·문원동 생활권</a> 페이지에서 외곽 생활권의 이동 기준을 확인하실 수 있습니다. 북쪽으로는 <a href="/gwacheon-dong/">과천동 출장마사지</a> 안내가 다루는 생활권과도 연결되니, 위치가 그 사이라면 두 페이지를 함께 참고하셔도 좋습니다. 같은 문원동이라도 공원 진입로에 가까운 쪽과 주거 안쪽은 도착 동선이 다르므로, 단지명이나 큰 기준점을 함께 알려주시면 위치 확인이 한결 빨라집니다.</p>
 </section>
 
 <section>
@@ -263,7 +263,7 @@ RACECOURSE = _station(
 
 <section>
 <h2>차량 이동 기준의 차이</h2>
-<p>경마공원역 인근은 같은 '역 근처'라도 실제 도착 시간이 위치에 따라 크게 벌어집니다. 과천동 방면인지, 주암동 방면인지에 따라 진입 도로가 달라지고, 행사가 있는 날은 경마공원 주변 도로가 혼잡해 우회가 필요한 경우도 있습니다. 그래서 예약 시에는 역 이름과 함께 방향과 도로명 주소를 알려주시는 편이 정확합니다. 주거 생활 기준의 자세한 안내는 <a href="/gyeonggi/gwacheon/gwacheon-dong/">과천동 출장마사지</a> 페이지에서, 주암동 인접권을 묶은 안내는 <a href="/gyeonggi/gwacheon/area/racecourse-juam/">경마공원·주암동 인접 생활권</a> 페이지에서 다룹니다. 이 역 페이지는 차량 동선 기준의 이동 안내에 집중합니다.</p>
+<p>경마공원역 인근은 같은 '역 근처'라도 실제 도착 시간이 위치에 따라 크게 벌어집니다. 과천동 방면인지, 주암동 방면인지에 따라 진입 도로가 달라지고, 행사가 있는 날은 경마공원 주변 도로가 혼잡해 우회가 필요한 경우도 있습니다. 그래서 예약 시에는 역 이름과 함께 방향과 도로명 주소를 알려주시는 편이 정확합니다. 주거 생활 기준의 자세한 안내는 <a href="/gwacheon-dong/">과천동 출장마사지</a> 페이지에서, 주암동 인접권을 묶은 안내는 <a href="/area/racecourse-juam/">경마공원·주암동 인접 생활권</a> 페이지에서 다룹니다. 이 역 페이지는 차량 동선 기준의 이동 안내에 집중합니다.</p>
 </section>
 
 <section>
@@ -273,7 +273,7 @@ RACECOURSE = _station(
 
 <section>
 <h2>방문 형태와 시간대</h2>
-<p>단독주택, 빌라, 아파트 자택 방문이 중심입니다. 골목이 좁거나 주차가 까다로운 구간이 있어, 주차 가능한 위치와 평소 쓰시는 출입구를 함께 알려주시면 도보 이동 없이 도착할 수 있습니다. 경마공원 행사일과 주말 외출철에는 주변 도로가 붐비므로 시간을 여유 있게 잡아 주세요. 남쪽으로 한 정거장인 <a href="/gyeonggi/gwacheon/station/seonbawi-station/">선바위역</a> 생활권과도 가까워, 위치가 그 사이라면 두 페이지를 함께 참고하시면 됩니다. 예약 절차는 <a href="/reservation/">예약 안내</a>에서 확인하실 수 있습니다.</p>
+<p>단독주택, 빌라, 아파트 자택 방문이 중심입니다. 골목이 좁거나 주차가 까다로운 구간이 있어, 주차 가능한 위치와 평소 쓰시는 출입구를 함께 알려주시면 도보 이동 없이 도착할 수 있습니다. 경마공원 행사일과 주말 외출철에는 주변 도로가 붐비므로 시간을 여유 있게 잡아 주세요. 남쪽으로 한 정거장인 <a href="/station/seonbawi-station/">선바위역</a> 생활권과도 가까워, 위치가 그 사이라면 두 페이지를 함께 참고하시면 됩니다. 예약 절차는 <a href="/reservation/">예약 안내</a>에서 확인하실 수 있습니다.</p>
 </section>
 
 <section>
@@ -317,7 +317,7 @@ SEONBAWI = _station(
 
 <section>
 <h2>역세권 기준으로 보는 위치</h2>
-<p>이 페이지는 선바위역을 기준점으로 한 위치 안내를 다룹니다. 같은 과천동·주암동이라도 선바위역에서 가까운 단지인지, 남부 안쪽 주택가인지에 따라 도착 경로가 달라집니다. 동네 생활 기준의 자세한 안내는 <a href="/gyeonggi/gwacheon/gwacheon-dong/">과천동 출장마사지</a> 페이지에서 따로 다루므로, 지역 생활 정보가 궁금하시면 그쪽을 참고해 주세요. 역세권과 지역 기준을 나누어, 같은 문장이 반복되지 않게 작성했습니다. 과천동과 선바위 일대를 묶어 보고 싶으시면 <a href="/gyeonggi/gwacheon/area/gwacheon-seonbawi/">과천동·선바위 생활권</a> 페이지에서 남부 생활권의 이동 기준을 확인하실 수 있습니다.</p>
+<p>이 페이지는 선바위역을 기준점으로 한 위치 안내를 다룹니다. 같은 과천동·주암동이라도 선바위역에서 가까운 단지인지, 남부 안쪽 주택가인지에 따라 도착 경로가 달라집니다. 동네 생활 기준의 자세한 안내는 <a href="/gwacheon-dong/">과천동 출장마사지</a> 페이지에서 따로 다루므로, 지역 생활 정보가 궁금하시면 그쪽을 참고해 주세요. 역세권과 지역 기준을 나누어, 같은 문장이 반복되지 않게 작성했습니다. 과천동과 선바위 일대를 묶어 보고 싶으시면 <a href="/area/gwacheon-seonbawi/">과천동·선바위 생활권</a> 페이지에서 남부 생활권의 이동 기준을 확인하실 수 있습니다.</p>
 </section>
 
 <section>
@@ -327,7 +327,7 @@ SEONBAWI = _station(
 
 <section>
 <h2>방문 형태와 시간대</h2>
-<p>아파트와 빌라, 주택 자택 방문이 중심입니다. 단지에 따라 방문 차량 등록이나 공동현관 호출 방식이 다르니 예약 시 단지 규정을 알려주시면 도착이 매끄럽습니다. 평일 저녁과 주말 오후가 가장 붐비고, 평일 낮은 비교적 여유로워 어르신 정기 관리 일정을 잡기 좋습니다. 북쪽으로 한 정거장인 <a href="/gyeonggi/gwacheon/station/seoul-racecourse-park-station/">경마공원역</a> 생활권과도 가까우니, 위치가 그 사이라면 두 페이지를 함께 참고하셔도 됩니다. 출장마사지와 홈타이의 차이가 궁금하시면 <a href="/hometai/">홈타이 이용 가이드</a>를 참고해 주세요.</p>
+<p>아파트와 빌라, 주택 자택 방문이 중심입니다. 단지에 따라 방문 차량 등록이나 공동현관 호출 방식이 다르니 예약 시 단지 규정을 알려주시면 도착이 매끄럽습니다. 평일 저녁과 주말 오후가 가장 붐비고, 평일 낮은 비교적 여유로워 어르신 정기 관리 일정을 잡기 좋습니다. 북쪽으로 한 정거장인 <a href="/station/seoul-racecourse-park-station/">경마공원역</a> 생활권과도 가까우니, 위치가 그 사이라면 두 페이지를 함께 참고하셔도 됩니다. 출장마사지와 홈타이의 차이가 궁금하시면 <a href="/hometai/">홈타이 이용 가이드</a>를 참고해 주세요.</p>
 </section>
 
 <section>
@@ -371,7 +371,7 @@ INDEOGWON = _station(
 
 <section>
 <h2>과천에서 닿는 인접 생활권</h2>
-<p>인덕원역과 생활권이 이어지는 과천 지역은 <a href="/gyeonggi/gwacheon/galhyeon-dong/">갈현동 출장마사지</a> 안내가 다루는 신흥 주거권과, 과천지식정보타운 일대입니다. 두 지역을 묶은 안내는 <a href="/gyeonggi/gwacheon/area/galhyeon-knowledge-town/">갈현동·지식정보타운 생활권</a> 페이지에서, 인덕원 방면과의 경계를 다룬 안내는 <a href="/gyeonggi/gwacheon/area/indeogwon-galhyeon-nearby/">인덕원·갈현 인접 생활권</a> 페이지에서 확인하실 수 있습니다. 과천지식정보타운은 신축 단지가 들어선 비교적 새 생활권이라, 단지명과 동·호수를 기준으로 알려주시면 위치 확인이 가장 빠릅니다.</p>
+<p>인덕원역과 생활권이 이어지는 과천 지역은 <a href="/galhyeon-dong/">갈현동 출장마사지</a> 안내가 다루는 신흥 주거권과, 과천지식정보타운 일대입니다. 두 지역을 묶은 안내는 <a href="/area/galhyeon-knowledge-town/">갈현동·지식정보타운 생활권</a> 페이지에서, 인덕원 방면과의 경계를 다룬 안내는 <a href="/area/indeogwon-galhyeon-nearby/">인덕원·갈현 인접 생활권</a> 페이지에서 확인하실 수 있습니다. 과천지식정보타운은 신축 단지가 들어선 비교적 새 생활권이라, 단지명과 동·호수를 기준으로 알려주시면 위치 확인이 가장 빠릅니다.</p>
 </section>
 
 <section>

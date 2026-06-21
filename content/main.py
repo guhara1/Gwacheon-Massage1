@@ -6,8 +6,8 @@ _JSONLD = f"""<script type="application/ld+json">
 {{
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "과천시 출장마사지 · 과천시 홈타이 지역별 예약 안내",
-  "url": "{BASE_URL}/gyeonggi/gwacheon/",
+  "name": "과천시 출장마사지 · 홈타이 지역별 예약 안내",
+  "url": "{BASE_URL}/",
   "description": "과천시 출장마사지·홈타이 예약 전 정부과천청사, 과천역, 별양동, 갈현동, 선바위 생활권을 확인하세요.",
   "inLanguage": "ko",
   "primaryImageOfPage": {{
@@ -19,7 +19,7 @@ _JSONLD = f"""<script type="application/ld+json">
   "isPartOf": {{
     "@type": "WebSite",
     "name": "{BRAND}",
-    "url": "{BASE_URL}/gyeonggi/gwacheon/"
+    "url": "{BASE_URL}/"
   }}
 }}
 </script>
@@ -28,7 +28,7 @@ _JSONLD = f"""<script type="application/ld+json">
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "{BRAND}",
-  "url": "{BASE_URL}/gyeonggi/gwacheon/",
+  "url": "{BASE_URL}/",
   "image": "{BASE_URL}/assets/og-image.png",
   "telephone": "{PHONE}",
   "areaServed": {{
@@ -42,8 +42,8 @@ _JSONLD = f"""<script type="application/ld+json">
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {{ "@type": "ListItem", "position": 1, "name": "홈", "item": "{BASE_URL}/gyeonggi/gwacheon/" }},
-    {{ "@type": "ListItem", "position": 2, "name": "과천시", "item": "{BASE_URL}/gyeonggi/gwacheon/" }}
+    {{ "@type": "ListItem", "position": 1, "name": "홈", "item": "{BASE_URL}/" }},
+    {{ "@type": "ListItem", "position": 2, "name": "과천시", "item": "{BASE_URL}/" }}
   ]
 }}
 </script>
@@ -92,7 +92,7 @@ _JSONLD = f"""<script type="application/ld+json">
 _HERO = f"""<section class="hero">
   <div class="hero-inner">
     <p class="hero-badge">Premium Visiting Care · 경기도 과천시 전지역</p>
-    <h1>과천시 출장마사지 · 과천시 홈타이<br>지역별 예약 안내</h1>
+    <h1>과천시 출장마사지 · 홈타이<br>지역별 예약 안내</h1>
     <p class="hero-lead">정부과천청사·과천역·별양동·선바위까지, 계신 곳에서 받는 방문형 관리 서비스.<br>자택·숙소·사무실 인근 어디든 전화 한 통이면 예약 가능 여부를 바로 확인해 드립니다.</p>
     <div class="hero-actions">
       <a class="hero-btn primary" href="tel:{PHONE}">📞 {PHONE_DISPLAY}</a>
@@ -118,36 +118,36 @@ _BODY = f"""
 
 <section id="diff">
 <h2>중앙동·별양동·갈현동·과천동 생활권 차이</h2>
-<p>중앙동과 별양동은 과천시 안에서도 검색 의도가 가장 넓은 중심 생활권입니다. <a href="/gyeonggi/gwacheon/jungang-dong/">중앙동 출장마사지</a> 안내는 정부과천청사역과 과천시청, 관문동 인접권을 중심으로 행정·업무 생활권을 다루고, <a href="/gyeonggi/gwacheon/byeoryang-dong/">별양동 출장마사지</a> 안내는 과천역과 중심상권, 부림동 인접권을 중심으로 상권·역세권 성격을 다룹니다. 두 지역은 가깝지만 역할을 다르게 잡아 같은 설명이 반복되지 않게 했습니다. <a href="/gyeonggi/gwacheon/galhyeon-dong/">갈현동 출장마사지</a> 안내는 과천지식정보타운과 인덕원 인접권 중심으로, <a href="/gyeonggi/gwacheon/gwacheon-dong/">과천동 출장마사지</a> 안내는 선바위역·경마공원역·주암동 인접 생활권 중심으로 구성해, 같은 과천시라도 위치마다 이동 기준과 방문 조건이 어떻게 달라지는지 비교해 보실 수 있습니다.</p>
+<p>중앙동과 별양동은 과천시 안에서도 검색 의도가 가장 넓은 중심 생활권입니다. <a href="/jungang-dong/">중앙동 출장마사지</a> 안내는 정부과천청사역과 과천시청, 관문동 인접권을 중심으로 행정·업무 생활권을 다루고, <a href="/byeoryang-dong/">별양동 출장마사지</a> 안내는 과천역과 중심상권, 부림동 인접권을 중심으로 상권·역세권 성격을 다룹니다. 두 지역은 가깝지만 역할을 다르게 잡아 같은 설명이 반복되지 않게 했습니다. <a href="/galhyeon-dong/">갈현동 출장마사지</a> 안내는 과천지식정보타운과 인덕원 인접권 중심으로, <a href="/gwacheon-dong/">과천동 출장마사지</a> 안내는 선바위역·경마공원역·주암동 인접 생활권 중심으로 구성해, 같은 과천시라도 위치마다 이동 기준과 방문 조건이 어떻게 달라지는지 비교해 보실 수 있습니다.</p>
 </section>
 
 <section id="dongs">
 <h2>대표동별 방문 가능 지역 안내</h2>
 <p>과천시는 서울 자치구처럼 숫자 행정동이 많은 구조가 아니라, 행정동 기준 일곱 개 대표 지역을 중심으로 안내합니다. 관문동은 중앙동, 주암동은 과천동, 막계동은 문원동 본문과 생활권 페이지에서 보조 설명합니다. 단순히 법정동을 늘려 얇은 페이지를 만들지 않습니다.</p>
 <ul class="card-grid">
-<li><a href="/gyeonggi/gwacheon/jungang-dong/">중앙동</a></li>
-<li><a href="/gyeonggi/gwacheon/galhyeon-dong/">갈현동</a></li>
-<li><a href="/gyeonggi/gwacheon/wonmun-dong/">원문동</a></li>
-<li><a href="/gyeonggi/gwacheon/byeoryang-dong/">별양동</a></li>
-<li><a href="/gyeonggi/gwacheon/burim-dong/">부림동</a></li>
-<li><a href="/gyeonggi/gwacheon/gwacheon-dong/">과천동</a></li>
-<li><a href="/gyeonggi/gwacheon/munwon-dong/">문원동</a></li>
+<li><a href="/jungang-dong/">중앙동</a></li>
+<li><a href="/galhyeon-dong/">갈현동</a></li>
+<li><a href="/wonmun-dong/">원문동</a></li>
+<li><a href="/byeoryang-dong/">별양동</a></li>
+<li><a href="/burim-dong/">부림동</a></li>
+<li><a href="/gwacheon-dong/">과천동</a></li>
+<li><a href="/munwon-dong/">문원동</a></li>
 </ul>
-<p><a href="/gyeonggi/gwacheon/wonmun-dong/">원문동 출장마사지</a> 안내는 과천대로와 갈현동·별양동 인접권을, <a href="/gyeonggi/gwacheon/burim-dong/">부림동 출장마사지</a> 안내는 과천역과 관문체육공원 인접권을, <a href="/gyeonggi/gwacheon/munwon-dong/">문원동 출장마사지</a> 안내는 대공원역과 서울대공원·막계동 인접 생활권을 중심으로 작성했습니다. 거주하시거나 머무시는 동을 선택해 자세한 방문 조건을 확인해 주세요.</p>
+<p><a href="/wonmun-dong/">원문동 출장마사지</a> 안내는 과천대로와 갈현동·별양동 인접권을, <a href="/burim-dong/">부림동 출장마사지</a> 안내는 과천역과 관문체육공원 인접권을, <a href="/munwon-dong/">문원동 출장마사지</a> 안내는 대공원역과 서울대공원·막계동 인접 생활권을 중심으로 작성했습니다. 거주하시거나 머무시는 동을 선택해 자세한 방문 조건을 확인해 주세요.</p>
 </section>
 
 <section id="stations">
 <h2>정부과천청사역·과천역·선바위역 역세권 안내</h2>
 <p>역세권 페이지는 과천시 지역 안내에서 중요한 역할을 합니다. 정부과천청사역, 과천역, 대공원역, 경마공원역, 선바위역은 역명 기준 한 개 페이지만 운영하며, 출구별로 나누거나 예정역을 미리 만들지 않습니다. 인덕원역은 안양시 성격이 강해 과천에서는 인접 생활권으로만 안내합니다.</p>
 <ul class="card-grid">
-<li><a href="/gyeonggi/gwacheon/station/government-complex-gwacheon-station/">정부과천청사역</a></li>
-<li><a href="/gyeonggi/gwacheon/station/gwacheon-station/">과천역</a></li>
-<li><a href="/gyeonggi/gwacheon/station/seoul-grand-park-station/">대공원역</a></li>
-<li><a href="/gyeonggi/gwacheon/station/seoul-racecourse-park-station/">경마공원역</a></li>
-<li><a href="/gyeonggi/gwacheon/station/seonbawi-station/">선바위역</a></li>
-<li><a href="/gyeonggi/gwacheon/station/indeogwon-nearby-area/">인덕원역 인접 생활권</a></li>
+<li><a href="/station/government-complex-gwacheon-station/">정부과천청사역</a></li>
+<li><a href="/station/gwacheon-station/">과천역</a></li>
+<li><a href="/station/seoul-grand-park-station/">대공원역</a></li>
+<li><a href="/station/seoul-racecourse-park-station/">경마공원역</a></li>
+<li><a href="/station/seonbawi-station/">선바위역</a></li>
+<li><a href="/station/indeogwon-nearby-area/">인덕원역 인접 생활권</a></li>
 </ul>
-<p>생활권 단위로 더 넓게 보고 싶다면 <a href="/gyeonggi/gwacheon/area/">과천 생활권 안내</a>에서 정부과천청사·중앙동, 과천역·별양동, 갈현동·지식정보타운 등 아홉 개 생활권을 함께 확인하실 수 있습니다.</p>
+<p>생활권 단위로 더 넓게 보고 싶다면 <a href="/area/">과천 생활권 안내</a>에서 정부과천청사·중앙동, 과천역·별양동, 갈현동·지식정보타운 등 아홉 개 생활권을 함께 확인하실 수 있습니다.</p>
 </section>
 
 <section id="hometai-check">
@@ -174,10 +174,10 @@ _BODY = f"""
 """
 
 PAGE = {
-    "path": "gyeonggi/gwacheon/",
+    "path": "",
     "title": "과천시 출장마사지｜정부과천청사·과천역·별양동 홈타이 지역 안내",
     "desc": "과천시 출장마사지·홈타이 예약 전 정부과천청사, 과천역, 별양동, 갈현동, 선바위 생활권을 확인하세요.",
-    "h1": "과천시 출장마사지 · 과천시 홈타이 지역별 예약 안내",
+    "h1": "과천시 출장마사지 · 홈타이 지역별 예약 안내",
     "body": _BODY,
     "extra_head": _JSONLD,
     "breadcrumb": [("과천시", None)],

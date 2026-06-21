@@ -11,40 +11,40 @@ TELEGRAM_BUILD = "https://t.me/googleseolab"   # 웹사이트 제작문의
 TELEGRAM_PARTNER = "https://t.me/googleseolab"  # 제휴문의
 
 # 과천 메인 경로 — 광역(경기) 구조 안에서 과천시를 둔다.
-GWACHEON_HOME = "/gyeonggi/gwacheon/"
+GWACHEON_HOME = "/"
 
 # 상단 메뉴 — 하위 메뉴에는 키워드를 반복하지 않고 지역명·역명만 표시한다.
 NAV = [
-    ("과천 홈", "/gyeonggi/gwacheon/", []),
-    ("지역별 안내", "/gyeonggi/gwacheon/#dongs", [
-        ("중앙동", "/gyeonggi/gwacheon/jungang-dong/"),
-        ("갈현동", "/gyeonggi/gwacheon/galhyeon-dong/"),
-        ("원문동", "/gyeonggi/gwacheon/wonmun-dong/"),
-        ("별양동", "/gyeonggi/gwacheon/byeoryang-dong/"),
-        ("부림동", "/gyeonggi/gwacheon/burim-dong/"),
-        ("과천동", "/gyeonggi/gwacheon/gwacheon-dong/"),
-        ("문원동", "/gyeonggi/gwacheon/munwon-dong/"),
+    ("과천 홈", "/", []),
+    ("지역별 안내", "/#dongs", [
+        ("중앙동", "/jungang-dong/"),
+        ("갈현동", "/galhyeon-dong/"),
+        ("원문동", "/wonmun-dong/"),
+        ("별양동", "/byeoryang-dong/"),
+        ("부림동", "/burim-dong/"),
+        ("과천동", "/gwacheon-dong/"),
+        ("문원동", "/munwon-dong/"),
     ]),
-    ("역세권 안내", "/gyeonggi/gwacheon/station/", [
-        ("역 전체", "/gyeonggi/gwacheon/station/"),
-        ("정부과천청사역", "/gyeonggi/gwacheon/station/government-complex-gwacheon-station/"),
-        ("과천역", "/gyeonggi/gwacheon/station/gwacheon-station/"),
-        ("대공원역", "/gyeonggi/gwacheon/station/seoul-grand-park-station/"),
-        ("경마공원역", "/gyeonggi/gwacheon/station/seoul-racecourse-park-station/"),
-        ("선바위역", "/gyeonggi/gwacheon/station/seonbawi-station/"),
-        ("인덕원역 인접 생활권", "/gyeonggi/gwacheon/station/indeogwon-nearby-area/"),
+    ("역세권 안내", "/station/", [
+        ("역 전체", "/station/"),
+        ("정부과천청사역", "/station/government-complex-gwacheon-station/"),
+        ("과천역", "/station/gwacheon-station/"),
+        ("대공원역", "/station/seoul-grand-park-station/"),
+        ("경마공원역", "/station/seoul-racecourse-park-station/"),
+        ("선바위역", "/station/seonbawi-station/"),
+        ("인덕원역 인접 생활권", "/station/indeogwon-nearby-area/"),
     ]),
-    ("생활권 안내", "/gyeonggi/gwacheon/area/", [
-        ("생활권 전체", "/gyeonggi/gwacheon/area/"),
-        ("정부과천청사·중앙동", "/gyeonggi/gwacheon/area/government-complex-jungang/"),
-        ("과천역·별양동", "/gyeonggi/gwacheon/area/gwacheon-station-byeoryang/"),
-        ("갈현동·지식정보타운", "/gyeonggi/gwacheon/area/galhyeon-knowledge-town/"),
-        ("원문동·과천대로", "/gyeonggi/gwacheon/area/wonmun-gwacheon-daero/"),
-        ("부림동·관문체육공원", "/gyeonggi/gwacheon/area/burim-gwanmun-park/"),
-        ("과천동·선바위", "/gyeonggi/gwacheon/area/gwacheon-seonbawi/"),
-        ("서울대공원·문원동", "/gyeonggi/gwacheon/area/seoul-grand-park-munwon/"),
-        ("경마공원·주암동", "/gyeonggi/gwacheon/area/racecourse-juam/"),
-        ("인덕원·갈현 인접", "/gyeonggi/gwacheon/area/indeogwon-galhyeon-nearby/"),
+    ("생활권 안내", "/area/", [
+        ("생활권 전체", "/area/"),
+        ("정부과천청사·중앙동", "/area/government-complex-jungang/"),
+        ("과천역·별양동", "/area/gwacheon-station-byeoryang/"),
+        ("갈현동·지식정보타운", "/area/galhyeon-knowledge-town/"),
+        ("원문동·과천대로", "/area/wonmun-gwacheon-daero/"),
+        ("부림동·관문체육공원", "/area/burim-gwanmun-park/"),
+        ("과천동·선바위", "/area/gwacheon-seonbawi/"),
+        ("서울대공원·문원동", "/area/seoul-grand-park-munwon/"),
+        ("경마공원·주암동", "/area/racecourse-juam/"),
+        ("인덕원·갈현 인접", "/area/indeogwon-galhyeon-nearby/"),
     ]),
     ("예약 안내", "/reservation/", [
         ("예약 가능 지역 확인", "/reservation/#area"),

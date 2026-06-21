@@ -8,13 +8,13 @@
 - 정적 HTML 사이트 — 어느 호스팅(GitHub Pages, Netlify, 일반 웹서버)에서든 그대로 서빙 가능
 - `build.py` + `content/` 패키지에서 페이지를 생성하는 빌드 방식
 - 생성물(각 디렉터리의 `index.html`, `sitemap.xml`, `robots.txt`)도 저장소에 포함
-- 도메인 루트 `/` 는 과천 메인 `/gyeonggi/gwacheon/` 으로 리다이렉트(noindex)
+- 도메인 루트 `/` 는 과천 메인 `/` 으로 리다이렉트(noindex)
 
 ```
 build.py            # 빌드 스크립트 (레이아웃·글자수 검사·디스크립션 80자 검사·sitemap)
 content/
   site.py           # 상호·전화·BASE_URL·텔레그램·메뉴 구조
-  main.py           # 과천 메인 (/gyeonggi/gwacheon/) + WebPage/Organization/FAQ JSON-LD
+  main.py           # 과천 메인 (/) + WebPage/Organization/FAQ JSON-LD
   areas.py          # 대표동 7개 (중앙·갈현·원문·별양·부림·과천·문원)
   stations.py       # 역세권 허브 + 역 6개
   districts.py      # 생활권 허브 + 생활권 9개

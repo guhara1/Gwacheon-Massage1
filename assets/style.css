@@ -382,6 +382,34 @@ strong { color: var(--gold-soft); font-weight: 700; }
   background: linear-gradient(180deg, #2a2016, var(--panel-2));
 }
 
+/* 관련 안내 — 롱테일 내부링크 강화 블록 (번호 없는 별도 섹션) */
+.page-content section.related {
+  counter-increment: none;
+  background: var(--overlay-glow), linear-gradient(180deg, var(--panel) 0%, #0d0b07 100%);
+  border: 1px solid var(--line-gold);
+}
+.related h2 { font-size: 1.18rem; }
+.related h2::before { content: none; }
+.related h2::after { display: none; }
+.related-grid {
+  list-style: none; margin: 14px 0 0; padding: 0;
+  display: flex; flex-wrap: wrap; gap: 10px;
+}
+.related-grid li { margin: 0; }
+.related-grid a {
+  display: inline-flex; align-items: center;
+  padding: 9px 16px; border-radius: 22px;
+  background: var(--panel-2); border: 1px solid var(--line);
+  color: var(--text); font-size: 0.9rem; letter-spacing: 0.01em;
+  transition: 0.16s;
+}
+.related-grid a::before { content: "›"; color: var(--accent); margin-right: 7px; font-weight: 700; }
+.related-grid a:hover {
+  border-color: var(--accent); color: var(--accent-soft);
+  background: linear-gradient(180deg, #2a2016, var(--panel-2));
+  transform: translateY(-2px);
+}
+
 /* 안내 박스 */
 .info-box {
   background: var(--panel-2); border: 1px solid var(--line-gold);

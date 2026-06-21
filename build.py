@@ -19,6 +19,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from content import PAGES
 from content.site import (BASE_URL, BRAND, NAV, PHONE, PHONE_DISPLAY,
                           TELEGRAM_BUILD, TELEGRAM_PARTNER)
+from content.related import render_related
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 MIN_INDEX_CHARS = 2000
@@ -29,6 +30,7 @@ def text_length(body_html: str) -> int:
     """태그를 제거한 본문 글자수(공백 포함, 연속 공백은 1자).
     공통 요금 블록은 페이지 고유 본문이 아니므로 측정에서 제외한다."""
     text = re.sub(r'<section class="pricing">.*?</section>', " ", body_html, flags=re.S)
+    text = re.sub(r'<section class="related"[^>]*>.*?</section>', " ", text, flags=re.S)
     text = re.sub(r"<[^>]+>", " ", text)
     text = html.unescape(text)
     text = re.sub(r"\s+", " ", text).strip()
@@ -60,7 +62,7 @@ def render_breadcrumb(crumbs) -> str:
     if not crumbs:
         return ""
     parts = ['<nav class="breadcrumb" aria-label="현재 위치"><ol>']
-    parts.append('<li><a href="/gyeonggi/gwacheon/">홈</a></li>')
+    parts.append('<li><a href="/">홈</a></li>')
     for label, href in crumbs:
         if href:
             parts.append(f'<li><a href="{href}">{label}</a></li>')
@@ -134,6 +136,7 @@ def render_page(page: dict) -> str:
     h1_html = "" if hero else f"<h1>{h1}</h1>"
 
     body, toc_items = inject_toc(body)
+    related_html = render_related(path)
     toc_html = render_toc(toc_items)
     layout_cls = "page-layout has-toc" if toc_html else "page-layout"
 
@@ -171,7 +174,7 @@ def render_page(page: dict) -> str:
   <div class="header-accent" aria-hidden="true"></div>
   <div class="header-top">
     <div class="header-inner">
-      <a class="brand" href="/gyeonggi/gwacheon/"><span class="brand-mark">GO</span> <span class="brand-text">{BRAND}</span></a>
+      <a class="brand" href="/"><span class="brand-mark">GO</span> <span class="brand-text">{BRAND}</span></a>
       <p class="header-tagline"><span class="tag-gem">◆</span> 과천시 전지역 방문 관리 <span class="tag-gem">◆</span> 24시간 상담</p>
       <a class="header-call" href="tel:{PHONE}"><span class="call-label">예약전화</span> {PHONE_DISPLAY}</a>
       <button class="nav-toggle" aria-label="메뉴 열기" aria-expanded="false"><span></span><span></span><span></span></button>
@@ -188,6 +191,7 @@ def render_page(page: dict) -> str:
       {render_breadcrumb(crumbs)}
       {h1_html}
       {body}
+      {related_html}
     </article>
   </div>
 </main>
@@ -214,10 +218,10 @@ def render_page(page: dict) -> str:
     <nav class="footer-col" aria-label="지역 안내">
       <p class="footer-title">지역 안내</p>
       <ul>
-        <li><a href="/gyeonggi/gwacheon/">과천 홈</a></li>
-        <li><a href="/gyeonggi/gwacheon/#dongs">대표동 안내</a></li>
-        <li><a href="/gyeonggi/gwacheon/station/">역세권 안내</a></li>
-        <li><a href="/gyeonggi/gwacheon/area/">생활권 안내</a></li>
+        <li><a href="/">과천 홈</a></li>
+        <li><a href="/#dongs">대표동 안내</a></li>
+        <li><a href="/station/">역세권 안내</a></li>
+        <li><a href="/area/">생활권 안내</a></li>
         <li><a href="/hometai/">홈타이 이용 가이드</a></li>
       </ul>
     </nav>
@@ -265,7 +269,7 @@ def build() -> None:
     long_descs = []
 
     for page in PAGES:
-        path = page["path"]  # "" 또는 "gyeonggi/gwacheon/jungang-dong/" 형태
+        path = page["path"]  # "" 또는 "jungang-dong/" 형태
         out_dir = os.path.join(ROOT, path)
         os.makedirs(out_dir, exist_ok=True)
         html_out = render_page(page)
@@ -302,19 +306,6 @@ def build() -> None:
 
     # .nojekyll (GitHub Pages)
     open(os.path.join(ROOT, ".nojekyll"), "w").close()
-
-    # 도메인 루트(/) → 과천 메인으로 리다이렉트 (중복 색인 방지를 위해 noindex)
-    home = "/gyeonggi/gwacheon/"
-    with open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8") as f:
-        f.write(
-            "<!DOCTYPE html>\n<html lang=\"ko\">\n<head>\n<meta charset=\"utf-8\">\n"
-            "<meta name=\"robots\" content=\"noindex,follow\">\n"
-            f"<link rel=\"canonical\" href=\"{BASE_URL.rstrip('/')}{home}\">\n"
-            f"<meta http-equiv=\"refresh\" content=\"0; url={home}\">\n"
-            f"<title>{BRAND} · 과천시 출장마사지·홈타이 안내</title>\n"
-            f"</head>\n<body>\n<p><a href=\"{home}\">과천시 출장마사지·홈타이 안내로 이동</a></p>\n"
-            f"<script>location.replace(\"{home}\");</script>\n</body>\n</html>\n"
-        )
 
     width = max(len(p) for p, _, _ in report)
     print(f"{'PATH'.ljust(width)}  CHARS  ROBOTS")
